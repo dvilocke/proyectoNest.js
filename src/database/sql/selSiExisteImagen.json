@@ -1,0 +1,14 @@
+{
+    "consulta" : "select * from login as t1 join task as t2 on t1.id_login = t2.id_login where usuario = ? and t2.id_login = ? and imagen = ?",
+    "parametros" : [
+        {
+            "USUARIO" : "VARCHAR"
+        },
+        {
+            "ID_LOGIN": "INT"
+        },
+        {
+            "IMAGEN" : "VARCHAR"
+        }
+    ]
+}
